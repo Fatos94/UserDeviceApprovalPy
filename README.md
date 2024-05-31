@@ -55,8 +55,3 @@ This project demonstrates a simple user and device approval system using Python.
 Feel free to contribute to this project by adding more features, improving the code, or fixing any issues.
         # Display "The user ______ is not approved to access the system."
         print("The username", username, "is not approved to access the system.")
-
-# Call the function you just defined to experiment with different username and device_id combinations
-login("bmoreno", "hl0s5o1")
-login("elarson", "r2s5r9g")
-login("abernard", "4n482ts")
