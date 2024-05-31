@@ -47,11 +47,16 @@ def login(username, device_id):
             print(device_id, "is not their assigned device.")
     # Otherwise (part of the outer conditional and handles the case when `username` does not belong to `approved_users`),
     else:
+       # Display "The user ______ is not approved to access the system."
+        print("The username", username, "is not approved to access the system.")
+
+# Call the function you just defined to experiment with different username and device_id combinations
+login("bmoreno", "hl0s5o1")
+login("elarson", "r2s5r9g")
+login("abernard", "4n482ts")
 ```
 
 Conclusion
 This project demonstrates a simple user and device approval system using Python. By defining approved users and their corresponding devices, and implementing a function to check these, we can ensure that only authorized users with the correct devices can access the system. This setup can be extended for more complex scenarios and integrated with larger authentication systems.
 
 Feel free to contribute to this project by adding more features, improving the code, or fixing any issues.
-        # Display "The user ______ is not approved to access the system."
-        print("The username", username, "is not approved to access the system.")
