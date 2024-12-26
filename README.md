@@ -56,7 +56,7 @@ login("elarson", "r2s5r9g")
 login("abernard", "4n482ts")
 ```
 
-##Conclusion
+## Conclusion
 This project demonstrates a simple user and device approval system using Python. By defining approved users and their corresponding devices, and implementing a function to check these, we can ensure that only authorized users with the correct devices can access the system. This setup can be extended for more complex scenarios and integrated with larger authentication systems.
 
 Feel free to contribute to this project by adding more features, improving the code, or fixing any issues.
